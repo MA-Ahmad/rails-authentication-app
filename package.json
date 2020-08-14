@@ -11,15 +11,5 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
-  },
-  "scripts": {
-    "build": "cd client && yarn install && yarn build && cd ..",
-    "deploy": "cp -a client/build/. public/",
-    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
-  },
-  "engines": {
-    "yarn": "1.19.0",
-    "npm": "6.9.0",
-    "node": "12.5.0"
   }
 }
